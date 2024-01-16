@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8"> <!-- Langage universel permettant d'afficher correctement chaque carractére -->
+    <title>Paiement - NETFILM</title> <!-- Titre de la page -->
+    <link rel="stylesheet" href="stylescb.css">  <!-- Lein direct vers le css pour que les 2 communqiue -->
+</head>
+<body>
+    
+    <form action="./bluecardpay.html"> <!-- Formulaire qui fait executer le boutton 'submit' l'action de redirection que si les critéres sont remplis -->
+        <h2>Informations de paiement</h2> <!-- Titres -->
+        <h2>14.99€ NETFILM Premium</h2>
+
+        <p>Numéro de carte :</p> <!-- Text eplicatif -->
+        <input type="text" placeholder="1234 5678 9012 3456" required> <!-- Boite d'entrée de type texte que le client doit remplir obligatoirement sinon non execution du boutton submit , texte afficher automatique si rein dans la case = placeholder -->
+
+        <p>Date d'expiration :</p>
+        <input type="text" placeholder="MM/YY" required >
+
+        <p >CVV :</p>
+        <input type="text" placeholder="123" required>
+        
+
+        <button type="submit" >Payer</button> <!-- Boutton d'entrée executer qui execute l'action présente dans l'entrée du formulaire 'action=".."' que si les 3 boites de texte sont rempli par au moins 1 caractéres -->
+        <button  type="button" href="./films.html" class="back">Retour</button> <!-- Boutton retour sur la page d'accueil -->
+     
+    </form>
+    
+</body>
+</html>
