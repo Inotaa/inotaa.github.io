@@ -33,23 +33,18 @@ h2, p.texte {
     text-align: center;
     padding: 9px;
 }
-h3{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap; /* va a la lgine quand pu de place*/
-}
-
-/* Style de la section 'films' avec des images flexibles */
-.series {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap; /* va a la lgine quand pu de place*/
-}
 
 /* Style des articles (conteneurs) */
 article {
     margin: 20px;
     text-align: center;
+}
+.def{
+    display: flex;
+    width: 640px;
+    height: 70px;
+    margin-left: 33%;
+    font-size: 18px;
 }
 
 /* Style des images à l'intérieur des articles */
