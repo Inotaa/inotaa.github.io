@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta name="viewport" content="width=device-width" content="height=device-height" >
+    <link rel="stylesheet" href="styleserie.css"> <!-- Lein direct vers le css pour que les 2 communqiue -->
+    <meta charset="utf-8"> <!-- Langage universel permettant d'afficher correctement chaque carractére -->
+    <title>NetFilm</title> <!-- Titre de la page -->
+    <link rel="shortcut icon" href="./nf.ico" />
+</head>
+
+<body>
+    <header>
+        <h1>N E T F I L M</h1> <!-- Titre principal -->
+        <nav> <!-- représente une section d'une page ayant des liens vers d'autres pages -->
+            <ol> <!-- Liste -->
+                <a href="./index.html"><li>Accueil</li></a> <!-- DIfférente option de navigation -->
+                <li>Séries</li>  
+                <li>Films</li> 
+                <li>My List</li> 
+            </ol>
+        </nav>
+    </header>
+    
+        <h2>Découvrez vos films et séries préférés.</h2> <!-- Tire n°2 -->
+        <p class="texte">Diffusion en continu en haute qualité.</p> <!-- Texte -->
+
+        <section class="series"> <!-- Greoupe de meme contenu -->
+
+            <article>
+                <a class="hyper_film"  href="https://www.youtube.com/watch?v=QlU-5RsnYTk" target="_blank"> <img src="./Image/Peaky.jpg" alt="Peaky Blinders"> 
+                <h3>Peaky Blinders</h3>
+                <H3>À Birmingham, en Angleterre, l'année 1919 est marquée par les exactions
+                    de l'impitoyable Tommy Shelby, un jeune chef de la pègre ivre de son désir
+                    de domination.</H3> </a>
+            </article>
+            <article>
+                <a class="hyper_film" href="https://anime-sama.fr/catalogue/rick-et-morty/saison1/vf/" target="_blank"> <img src="./Image/RM.jpeg" alt="Rick et Morty"> 
+                <h3>Rick et Morty</h3> </a>
+            </article>
+            
+            <article>
+                <a class="hyper_film" href="https://www.youtube.com/watch?v=HhesaQXLuRY&pp=ygUaYnJlYWtpbmcgYmFkIGJhbmRlIGFubm9uY2U%3D" target="_blank"> <img src="./Image/break.jpg" alt="Breaking Bad">
+                <h3>Breaking Bad</h3> </a>
+            </article>
+    
+
+    
+    
+        </section>
+
+    <div class="wu">
+        <button class="Plus">Afficher plus</button> <!-- Boutton décoration -->
+    </div>
+
+
+    <footer class="paye"> <!-- 1er Bas de page-->
+        <a class="hyper_film" href="./bluecard.html"><p>Découvrez notre abonnement a 14.99€ ! </p></a> <!-- Texte qui améne au "Paiement"  -->
+        <p class="promo"> <!-- Code en java qui est juste décoratif pour afficher la date du jour pour faire durer la promo que 1 seul -->
+            <SCRIPT LANGUAGE="JavaScript"> //Dit que cette partie passe en java
+            var maintenant=new Date();    //Défini 'maintenant' comme l'instant actuelle 
+            var jour=maintenant.getDate(); // Défini 'jour' comme le jour d'aujourd'hui
+            var mois=maintenant.getMonth() + 1; // Défini 'mois' comme le mois +1 car ca commence de zéro et que les mois commencer a 1
+            var an=maintenant.getFullYear(); // Défini 'an' comme année actuelle
+            document.write("(Promotion disponible du ",jour,"/",mois,"/",an," au ",jour,"/",mois,"/",an,", voir condition sur le site marchand)"); //Ecrire sur le document le texte avec les variable défini avant ajouter dedans 
+            </SCRIPT>
+            </p> <!-- Copyright et année -->
+    </footer>
+
+    <footer class="end"> <!-- 2éme pied de page -->
+        <p>&copy; 2024 NetFilm. Tous droits réservés.</p> <!-- Copyright et année -->
+    </footer>
+</body> 
+
+
+</html>

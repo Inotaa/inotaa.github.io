@@ -1,0 +1,128 @@
+/* Définit le style global du site */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #111;
+    color: #fff;
+}
+
+/* Style de l'en-tête du site */
+header {
+    background-color: #000;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; /*sépare Netfilm du truc de nav*/
+    align-items: center; /*aligne au centre de l'en tete */
+}
+
+/* Style de la liste de navigation dans l'en-tête */
+nav ol {
+    list-style: none;
+    display: flex;
+}
+
+/* Style des éléments de la liste de navigation */
+nav li {
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Style des titres h2 et des paragraphes avec la classe 'texte' */
+h2, p.texte {
+    text-align: center;
+    padding: 9px;
+}
+h3{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* va a la lgine quand pu de place*/
+}
+
+/* Style de la section 'films' avec des images flexibles */
+.series {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* va a la lgine quand pu de place*/
+}
+
+/* Style des articles (conteneurs) */
+article {
+    margin: 20px;
+    text-align: center;
+}
+
+/* Style des images à l'intérieur des articles */
+article img {
+    border-radius: 5px;
+    width: 10cm;
+}
+
+/* Style de la section de fin de page */
+.end {
+    background-color: #000;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style de la section de paiement avec dégradé */
+.paye {
+    padding: 15px;
+    background: linear-gradient(210deg, #000, #111, #000);
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+/* Style des liens de navigation */
+.navi {
+    text-decoration: none;
+    color: #a51e1e;
+}
+
+/* Style des liens vers les films avec couleur blanche */
+.hyper_film {
+    color: white;
+    text-decoration: none;
+    margin-top: 0;
+}
+
+/* Style du bouton 'Plus' avec effet de survol */
+.Plus {
+    background-color: #918e8e;
+    border: none;
+    padding: 7.5px 16px;
+    border-radius: 7.5px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 500ms;
+}
+/*Classe parent de .Plus uniquelment pour le centrer*/
+.wu {
+    justify-content: center;
+    display: flex;
+    padding: 5px;
+}
+
+/* Effet de survol du bouton 'Plus' */
+.Plus:hover {
+    background-color: #9c4a4a;
+}
+
+/* Style du titre h1 avec police 'century' et marges */
+h1 {
+    font-family: century;
+    margin-left: 15px;
+}
+
+/* Style du texte de promotion avec une taille de police plus petite */
+.promo {
+    font-size: 12px;
+}
+
+/* Style des liens avec la couleur blanche et sans soulignement */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
