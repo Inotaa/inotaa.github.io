@@ -28,34 +28,50 @@ nav li {
     font-size: 18px;
 }
 
+/* Style des liens de navigation */
+.navi {
+    text-decoration: none;
+    color: #a51e1e;
+}
+
 /* Style des titres h2 et des paragraphes avec la classe 'texte' */
-h2, p.texte {
+h2, .texte {
     text-align: center;
     padding: 9px;
 }
 
-/*Aggrandi le texte difusuion... */
+/*Aggrandi texte de classe "texte*/
 .texte{
     font-size: 19px;
 }
 
-/* Style de la section 'films' avec des images flexibles */
-.films {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap; /* va a la lgine quand pu de place*/
+.uwu{
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-/* Style des articles (conteneurs) */
-article {
+/* Style des articles en fusuion avec .def */
+article, .def {
     margin: 20px;
     text-align: center;
 }
 
+/* Taille texte 18px, gras et couleur*/
+.def{
+    font-size: 19px;
+    font-weight: bold;
+    color: #ffc6c6;
+    margin-bottom: 45px;
+}
+h3{
+    font-size: 20px;
+}
 /* Style des images à l'intérieur des articles */
 article img {
-    border-radius: 50px;
-    width: 10cm;
+    border-radius: 80px;
+    width: 13cm;
+    padding-inline: 40px;
 }
 
 /* Style de la section de fin de page */
@@ -74,17 +90,17 @@ article img {
     font-size: 19px;
 }
 
-/* Style des liens de navigation */
-.navi {
-    text-decoration: none;
-    color: #a51e1e;
-}
-
 /* Style des liens vers les films avec couleur blanche */
 .hyper {
     color: white;
-    text-decoration: none;
-    margin-top: 0;
+    text-decoration: none;  
+}
+
+/*Classe parent de .Plus uniquelment pour le centrer*/
+.wu {
+    justify-content: center;
+    display: flex;
+    padding: 5px;
 }
 
 /* Style du bouton 'Plus' avec effet de survol */
@@ -96,12 +112,6 @@ article img {
     font-size: 17px;
     cursor: pointer;
     transition: 500ms;
-}
-/*Classe parent de .Plus uniquelment pour le centrer*/
-.wu {
-    justify-content: center;
-    display: flex;
-    padding: 5px;
 }
 
 /* Effet de survol du bouton 'Plus' */
