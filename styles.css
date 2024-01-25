@@ -34,6 +34,11 @@ h2, p.texte {
     padding: 9px;
 }
 
+/*Aggrandi le texte difusuion... */
+.texte{
+    font-size: 19px;
+}
+
 /* Style de la section 'films' avec des images flexibles */
 .films {
     display: flex;
@@ -49,7 +54,7 @@ article {
 
 /* Style des images à l'intérieur des articles */
 article img {
-    border-radius: 5px;
+    border-radius: 50px;
     width: 10cm;
 }
 
