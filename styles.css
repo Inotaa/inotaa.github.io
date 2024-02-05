@@ -98,7 +98,7 @@ article img {
     transition: 500ms;
 }
 /*Classe parent de .Plus uniquelment pour le centrer*/
-.wu {
+.parent {
     justify-content: center;
     display: flex;
     padding: 5px;
@@ -126,4 +126,9 @@ a {
     color: white;
 }
 
+.test{
+	display: none;
+	list-style-position: none;
+	
+}
 
